@@ -1,0 +1,13 @@
+package quoteapp.theoneandonly.com.quoteapp;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class Quoteapp extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_quoteapp);
+    }
+}
